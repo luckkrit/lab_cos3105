@@ -3,7 +3,7 @@
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   
   // เพิ่ม git-lfs และ git lfs install ต่อท้ายเข้าไปในคำสั่งเดิม
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y nasm qemu-system-x86 qemu-utils build-essential git-lfs && git lfs install",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y nasm qemu-system-x86 qemu-utils build-essential git-lfs libncurses5-dev libncursesw5-dev libnewt-dev whiptail && git lfs install",
 
   "customizations": {
     "vscode": {
