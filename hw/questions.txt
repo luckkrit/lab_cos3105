@@ -1,0 +1,7 @@
+Enter your firstname:
+Enter your lastname:
+Enter your address:
+Enter your phone:
+Enter your email:
+Enter your salary:
+Enter your position:
